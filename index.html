@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background">
+    <div class="container">
+      <div class="logo">
+        <img src="smartserv-logo.png" alt="Logo">
+      </div>
+      <div class="login-form">
+        
+        <form class="loginform" action="#">
+          <div class="input-group">
+            <input type="text" id="email" placeholder="Username">
+            <div id="email_error" >Write Email in proper format</div>
+          </div>
+          <div class="input-group">
+            <input type="password" id="password" placeholder="Password">
+            <div id="password_error">Password must contain uppercase latter and a number and no special character other than '@'</div>
+          </div>
+          <button type="submit">Login</button>
+        </form>
+
+        <a href="#" class="forgot-password">Forgot the password?</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
